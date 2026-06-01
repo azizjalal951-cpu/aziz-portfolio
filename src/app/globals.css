@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* 💡 Format resmi pendaftaran warna kustom di Tailwind v4 */
+@theme {
+  --color-luxury-dark: #0B0C10;       /* Menggunakan HEX murni kembali */
+  --color-luxury-card: #12141C;       
+  --color-luxury-gold: #D4AF37;       
+  --color-luxury-goldHover: #AA820A;  
+  --color-luxury-light: #C5C6C7;
+  --color-luxury-dark-text: #2C2D2E;      
+}
+
+/* Mengunci warna dasar seluruh halaman web */
+body {
+  /* Di Tailwind v4, variabel yang didaftarkan di @theme otomatis dipetakan ke properti CSS kustom */
+  background-color: var(--color-luxury-dark);
+  color: var(--color-luxury-light);
+}
+
+@utility glass-premium {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@utility gold-text {
+  background: linear-gradient(
+    135deg,
+    #F6E27A 0%,
+    #D4AF37 40%,
+    #AA820A 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@utility text-soft-glow {
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.35),
+    0 0 12px rgba(255,255,255,0.2);
+}
+html {
+  scroll-behavior: smooth;
+}
+section{
+  scroll-margin-top:120px;
+}
