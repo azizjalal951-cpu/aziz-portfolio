@@ -18,10 +18,19 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Aziz Portfolio - Luxury Dark",
-  description: "Premium web developer portfolio powered by Next.js",
-};
+export const metadata = {
+  title: "Muhammad Aziz Jalaluddin | Full Stack Web Developer",
+  description:
+    "Portfolio of Muhammad Aziz Jalaluddin. Full Stack Web Developer specializing in Next.js, React, TypeScript, Supabase, and modern web experiences.",
+  opensGraph: {
+    title: "Muhammad Aziz Jalaluddin",
+    description: "Full Stack Web Developer specializing in modern web applications.",
+    image: ["/images/perfect.png"],
+    type: "website",
+   },
+  };
+
+
 
 export default function RootLayout({
   children,

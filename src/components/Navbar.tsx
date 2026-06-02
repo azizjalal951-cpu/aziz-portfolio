@@ -110,7 +110,7 @@ export default function Navbar() {
           "
         >
           ZYZ
-          <span className="text-luxury-gold"> PRJCT</span>
+          
         </Link>
       </div>
 

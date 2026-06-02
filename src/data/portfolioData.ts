@@ -99,7 +99,7 @@ export const portfolioData = {
   github: "https://github.com/azizjalal951-cpu",
   instagram: "https://www.instagram.com/jack.zyz0",
   Whatsapp: "https://wa.me/6285850380365",
-  linkedin: "https://www.linkedin.com/in/muhammad-aziz-jalaluddin-951a3224b/"
+  linkedin: "https://www.linkedin.com/in/aziz-jalal-79930a413"
   },
 
   

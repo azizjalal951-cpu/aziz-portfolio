@@ -130,7 +130,17 @@ export default function Hero() {
                     </p>
 
                     <div className="mt-1 flex gap-4">
-                        <button className="
+                        <button 
+                          onClick={() => {
+                            const section = document.getElementById("projects");
+                            if (section) {
+                                window.scrollTo({ 
+                                    top: section.offsetTop - 0, 
+                                    behavior: "smooth",
+                                 });
+                            }
+                          }}
+                          className="
                             px-5 
                             py-1 
                             text-sm 
@@ -144,9 +154,26 @@ export default function Hero() {
                             View Projects
                         </button>
 
-                        <button className="px-4 py-2 text-sm rounded-xl border border-white/20 text-white hover:border-luxury-gold hover:text-luxury-gold transition-all duration-300">
-                            Download CV
-                        </button>
+                        <a 
+                         
+                            href="CV/mycv.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="
+                                px-4 
+                                py-2 
+                                text-sm 
+                                rounded-xl 
+                                border 
+                                border-white/20 
+                                text-white 
+                                hover:border-luxury-gold 
+                                hover:text-luxury-gold 
+                                transition-all 
+                                duration-300">
+                            Resume
+                         
+                        </a>
                     </div>
                     
                     {/* Social Media Icons */}
