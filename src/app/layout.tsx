@@ -18,28 +18,53 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-export const metadata = {
-metadataBase: new URL(
+export const metadata: Metadata = {
+  metadataBase: new URL(
     "https://aziz-portfolio-liart.vercel.app"
   ),
 
-  title: "Muhammad Aziz Jalaluddin | Full Stack Web Developer",
+  title:
+    "Muhammad Aziz Jalaluddin | Full Stack Web Developer",
+
   description:
-    "Portfolio of Muhammad Aziz Jalaluddin. Full Stack Web Developer specializing in Next.js, React, TypeScript, Supabase, and modern web experiences.",
+    "Portfolio showcasing modern web applications, scalable architecture, premium UI design, and full-stack development expertise using Next.js, TypeScript, React, and Supabase.",
+
   openGraph: {
-    title: "Muhammad Aziz Jalaluddin",
-    description: "Full Stack Web Developer specializing in modern web applications.",
-    images: [
-        {
-          url: "/images/perfect.png",
-          width: 1200,
-          height: 630,
-          alt: "Muhammad Aziz Jalaluddin Portfolio",
-        },
-      ],
+    title:
+      "Muhammad Aziz Jalaluddin | Full Stack Web Developer",
+
+    description:
+      "Portfolio showcasing modern web applications, scalable architecture, premium UI design, and full-stack development expertise.",
+
+    url: "https://aziz-portfolio-liart.vercel.app",
+
+    siteName: "Muhammad Aziz Jalaluddin Portfolio",
+
     type: "website",
-   },
-  };
+
+    images: [
+      {
+        url: "https://aziz-portfolio-liart.vercel.app/images/perfect1.webp",
+        width: 1200,
+        height: 630,
+        alt: "Muhammad Aziz Jalaluddin Portfolio",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Muhammad Aziz Jalaluddin | Full Stack Web Developer",
+
+    description:
+      "Portfolio showcasing modern web applications and premium user experiences.",
+
+    images: [
+      "https://aziz-portfolio-liart.vercel.app/images/perfect1.webp",
+    ],
+  },
+};
 
 
 
