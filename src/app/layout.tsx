@@ -31,7 +31,7 @@ metadataBase: new URL(
     description: "Full Stack Web Developer specializing in modern web applications.",
     images: [
         {
-          url: "/images/og-image.png",
+          url: "/images/perfect.png",
           width: 1200,
           height: 630,
           alt: "Muhammad Aziz Jalaluddin Portfolio",
