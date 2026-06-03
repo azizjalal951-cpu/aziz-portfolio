@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-luxury-dark overflow-x-hidden">
       <main className="bg-luxury-dark text-luxury-light">
-        <Hero />
+        {/*<Hero />*/}
         <About />
         <Skills />
         <Projects />
