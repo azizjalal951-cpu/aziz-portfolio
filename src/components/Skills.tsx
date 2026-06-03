@@ -47,7 +47,7 @@ export default function Skills() {
             py-16
             md:py-28
             px-6
-            bg-[url('/images/cbgfokus.webp')]                                             
+            bg-luxury-dark                                             
             bg-cover
             bg-center
             bg-no-repeat

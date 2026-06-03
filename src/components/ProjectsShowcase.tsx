@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { portfolioData } from "../data/portfolioData";
 import {
@@ -221,8 +222,6 @@ export default function ProjectsShowcase() {
               w-10
               md:h-12
               md:w-12
-              py-5
-              
 
               rounded-full
               border
@@ -243,7 +242,7 @@ export default function ProjectsShowcase() {
             "
             aria-label="Previous project"
           >
-            ←
+            <ChevronLeft size={20} />
           </button>
 
           <button
@@ -286,7 +285,7 @@ export default function ProjectsShowcase() {
             "
             aria-label="Next project"
           >
-            →
+            <ChevronRight size={20} />
           </button>
 
           
