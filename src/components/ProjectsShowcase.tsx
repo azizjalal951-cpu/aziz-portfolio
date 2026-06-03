@@ -217,10 +217,12 @@ export default function ProjectsShowcase() {
               items-center
               justify-center
 
-              h-11
-              w-11
+              h-10
+              w-10
               md:h-12
               md:w-12
+              py-5
+              
 
               rounded-full
               border
@@ -259,10 +261,11 @@ export default function ProjectsShowcase() {
               items-center
               justify-center
 
-              h-11
-              w-11
+              h-10
+              w-10
               md:h-12
               md:w-12
+              py-5
 
               rounded-full
               border
