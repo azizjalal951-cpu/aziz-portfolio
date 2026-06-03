@@ -19,13 +19,24 @@ const inter = Inter({
 });
 
 export const metadata = {
+metadataBase: new URL(
+    "https://aziz-portfolio-liart.vercel.app"
+  ),
+
   title: "Muhammad Aziz Jalaluddin | Full Stack Web Developer",
   description:
     "Portfolio of Muhammad Aziz Jalaluddin. Full Stack Web Developer specializing in Next.js, React, TypeScript, Supabase, and modern web experiences.",
   openGraph: {
     title: "Muhammad Aziz Jalaluddin",
     description: "Full Stack Web Developer specializing in modern web applications.",
-    images: ["https://aziz-portfolio-liart.vercel.app/images/perfect.png",],
+    images: [
+        {
+          url: "/images/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "Muhammad Aziz Jalaluddin Portfolio",
+        },
+      ],
     type: "website",
    },
   };
