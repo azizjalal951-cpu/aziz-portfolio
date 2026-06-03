@@ -36,8 +36,45 @@ export default function Home() {
         <Experience />
         <Contact />
 
-        <footer className="text-center py-5 border-t border-white/[0.02] text-[10px] text-white/30 uppercase tracking-widest">
-          © {new Date().getFullYear()} AzizProject. All Rights Reserved.
+        <footer
+          className="
+            py-8
+            text-center
+            border-t border-white/[0.03]
+          "
+        >
+          <p
+            className="
+              text-white/30
+              text-xs
+              tracking-[0.25em]
+              uppercase
+            "
+          >
+            Designed & Developed by
+          </p>
+
+          <p
+            className="
+              mt-2
+              text-soft-glow
+              text-sm
+              tracking-[0.18em]
+              font-medium
+            "
+          >
+            Muhammad Aziz Jalaluddin
+          </p>
+
+          <p
+            className="
+              mt-3
+              text-white/20
+              text-[11px]
+            "
+          >
+            © {new Date().getFullYear()} All Rights Reserved
+          </p>
         </footer>
       </main>
     </div>

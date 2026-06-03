@@ -42,11 +42,11 @@ export const portfolioData = {
   // Daftar keahlian kamu
   skills: [
     {
-      category: "Frontend Dev",
+      category: "Frontend Development",
       items: ["React.js", "Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"]
     },
     {
-      category: "Backend & Infra",
+      category: "Backend & Infrastructure",
       items: ["Node.js", "Mysql", "Supabase", "PostgreSQL", "REST API", "Git/GitHub"]
     }
   ] as Skill[],

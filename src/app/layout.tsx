@@ -22,10 +22,10 @@ export const metadata = {
   title: "Muhammad Aziz Jalaluddin | Full Stack Web Developer",
   description:
     "Portfolio of Muhammad Aziz Jalaluddin. Full Stack Web Developer specializing in Next.js, React, TypeScript, Supabase, and modern web experiences.",
-  opensGraph: {
+  openGraph: {
     title: "Muhammad Aziz Jalaluddin",
     description: "Full Stack Web Developer specializing in modern web applications.",
-    image: ["/images/perfect.png"],
+    images: ["/images/perfect.png"],
     type: "website",
    },
   };
