@@ -227,7 +227,7 @@ export default function ProjectsShowcase() {
               border-white/10
 
               bg-black/60
-              
+              backdrop-blur-md
 
               text-lg
               text-white/60
