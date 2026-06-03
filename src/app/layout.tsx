@@ -25,7 +25,7 @@ export const metadata = {
   openGraph: {
     title: "Muhammad Aziz Jalaluddin",
     description: "Full Stack Web Developer specializing in modern web applications.",
-    images: ["https://aziz-portfolio-liart.vercel.app/images/perfect.png"],
+    images: ["https://aziz-portfolio-liart.vercel.app/images/perfect.png",],
     type: "website",
    },
   };
