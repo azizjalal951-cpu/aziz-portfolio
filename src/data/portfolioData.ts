@@ -117,11 +117,11 @@ export const portfolioData = {
     },
     {
       id: 2,
-      title: "Cyber-Glass Digital Invitation",
-      description: "Premium digital invitation platform based on web with luxurious glassmorphism visuals, blur saturation effects, countdown timer, and RSVP.",
+      title: "my-portfolio",
+      description: "Personal portfolio website showcasing my projects, technical skills, and experience in building modern, responsive, and user-friendly web applications using React, Next.js, TypeScript, and Tailwind CSS.",
       tech: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
-      image : "/images/apppos.webp",
-      link : "https://pashapoultryshop.netlify.app/"
+      image : "/images/portfolio.png",
+      link : "https://aziz-portfolio-liart.vercel.app/"
     },
     {
       id: 3,
